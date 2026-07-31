@@ -1,0 +1,66 @@
+[
+  {
+    "id": "728ca03c-1e1a-4e9a-8fec-df390d5fe6e9",
+    "title": "Vada Pao",
+    "amount": 35,
+    "category": "Food",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:24:10.355Z"
+  },
+  {
+    "id": "1ff7658e-934e-4cf7-954e-8f5a92a9891f",
+    "title": "Ganne ka Juice(Bada Glass)",
+    "amount": 20,
+    "category": "Food",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:24:37.280Z"
+  },
+  {
+    "id": "23e1871a-c9fb-462d-ae19-bbf6c6b40023",
+    "title": "CAB",
+    "amount": 420,
+    "category": "Transport",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:25:29.046Z"
+  },
+  {
+    "id": "ab385b2b-306e-4bc6-8e45-3fa902093aea",
+    "title": "Rent",
+    "amount": 12000,
+    "category": "Housing",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:28:47.242Z"
+  },
+  {
+    "id": "5b956fa8-d210-463e-8265-be422e30c2cb",
+    "title": "Cloths",
+    "amount": 800,
+    "category": "Shopping",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:29:21.592Z"
+  },
+  {
+    "id": "f46ddfa5-e0ab-4b93-8c2f-615998f2cee5",
+    "title": "Movie",
+    "amount": 420,
+    "category": "Entertainment",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:41:17.370Z"
+  },
+  {
+    "id": "2ec7cbd0-3ca3-4d11-8d2b-fa66e4bef0d7",
+    "title": "Test",
+    "amount": 120,
+    "category": "Test",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T19:41:36.486Z"
+  },
+  {
+    "id": "69715ae4-9bff-4eba-8db9-f208fa6d87f8",
+    "title": "asa",
+    "amount": 12332,
+    "category": "Food",
+    "date": "2026-07-31",
+    "createdAt": "2026-07-31T20:51:21.992Z"
+  }
+]
