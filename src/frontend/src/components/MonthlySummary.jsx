@@ -31,7 +31,7 @@ export default function MonthlySummary({ months }) {
               .map(([cat, amt]) => (
                 <div className="month-card__row" key={cat}>
                   <dt>{cat}</dt>
-                  <dd className="mono">${formatMoney(amt)}</dd>
+                  <dd className="mono">₹{formatMoney(amt)}</dd>
                 </div>
               ))}
           </dl>
