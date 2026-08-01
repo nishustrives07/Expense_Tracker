@@ -69,17 +69,29 @@ Expense_Tracker/
 
 ## Installation
 
-Install all dependencies from the project root.
+### Backend
+
+From the project root, install the backend dependencies:
 
 ```bash
 npm install
 ```
 
+### Frontend 
+
+The repository also includes a React frontend.
+
+Navigate to the frontend directory and install its dependencies:
+
+```bash
+cd src/frontend
+npm install
+```
+
 ---
+## Running the Backend Server
 
-## Running the Server
-
-Start the backend server.
+From the project root, start the Express backend server:
 
 ```bash
 npm start
@@ -99,17 +111,43 @@ npm run dev
 
 ---
 
+## Running the Frontend (Optional)
+
+Open a new terminal and navigate to the frontend directory:
+
+```bash
+cd src/frontend
+```
+
+Start the React development server:
+
+```bash
+npm run dev
+```
+
+The frontend starts on:
+
+```
+http://localhost:5173
+```
+
+The frontend communicates with the backend running on:
+
+```
+http://localhost:5000
+```
+
+---
+
 ## Running the Tests
 
-Run the complete Jest and Supertest test suite.
+From the project root, execute the automated test suite:
 
 ```bash
 npm test
 ```
 
-The tests execute directly against the Express application and do not require the server to be running.
-
----
+The Jest and Supertest tests run directly against the Express application and do not require the backend server to be running.
 
 ## API Endpoints
 
