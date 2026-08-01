@@ -60,7 +60,7 @@ It helped me:
 - Improve the presentation and clarity of the final submission.
 - Review the project as if it were being evaluated by a recruiter or engineering reviewer.
 
-Using two AI tools gave me different perspectives during development, but every technical decision in the final submission was based on my own review and understanding.
+Using both Claude and ChatGPT gave me different perspectives during development, but every piece of code included in the final submission was reviewed by me. I only kept implementations that I understood, validated through testing, and was confident explaining.
 
 ---
 
@@ -80,9 +80,7 @@ I reviewed:
 - Folder structure
 - Documentation
 
-Wherever necessary, I refined the implementation to improve readability, maintainability, or to better align with the assignment requirements.
-
-I also verified that the project structure and execution commands matched exactly what was requested in the assignment before preparing the final submission.
+Wherever I identified opportunities for improvement, I updated the implementation to better align with the assignment requirements, improve readability, simplify the code where appropriate, and ensure I fully understood the logic before considering it complete.
 
 ---
 
