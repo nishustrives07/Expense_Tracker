@@ -147,8 +147,7 @@ The tests execute directly against the Express application and do not require th
 
 ## Engineering Approach
 
-I approached this assignment with the mindset of building software in a professional engineering environment rather than simply completing a coding task.
-
+I approached this assignment with the mindset of building software in a professional engineering environment rather than simply completing a coding task. Having previously contributed to an expense management application during my internship, I understood the importance of first analyzing the requirements, identifying the application's workflow, and designing the solution before implementation. I followed the same engineering approach for this assignment.
 Before writing any code, I carefully analyzed the assignment requirements and broke the problem into smaller functional modules, including expense management, filtering, summary calculation, validation, persistence, and testing. This helped me understand the complete workflow and design the API structure before implementation.
 
 Once the requirements were clear, I organized the project into separate layers for routing, controllers, utilities, storage, and testing. Establishing this structure early made the code easier to understand, maintain, and extend.
@@ -191,10 +190,3 @@ If this project were extended further, the following enhancements could be consi
 
 ---
 
-## AI Usage
-
-AI tools were used during development to assist with project planning, implementation, and documentation.
-
-All AI-generated code was reviewed, validated, tested, and refined before being included in the final submission.
-
-A detailed explanation of the AI-assisted development workflow is available in **AI_NOTES.md**.
