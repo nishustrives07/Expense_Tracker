@@ -111,7 +111,7 @@ npm run dev
 
 ---
 
-## Running the Frontend (Optional)
+## Running the Frontend 
 
 Open a new terminal and navigate to the frontend directory:
 
