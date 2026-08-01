@@ -18,17 +18,43 @@ Beyond implementing the required functionality, this project was approached as a
 - Delete an expense
 - Store expense data in a local JSON file (no database required)
 
-### Bonus Feature
+## Bonus Feature
 
-**Search Expenses**
+### Search Expenses
 
-Implemented a search endpoint that allows users to search expenses by **title** or **category** using case-insensitive matching.
+As an optional enhancement, I implemented an **Expense Search** endpoint that allows users to quickly locate expenses without manually browsing the complete list.
 
-```
+The endpoint performs **case-insensitive partial matching** on both the **title** and **category** fields, making it easier to retrieve relevant expense records.
+
+**Endpoint**
+
+```http
 GET /api/expenses/search?q=<keyword>
 ```
 
----
+**Example**
+
+```http
+GET /api/expenses/search?q=groceries
+```
+
+**Example Response**
+
+```json
+[
+  {
+    "id": "b7d2c4f1",
+    "title": "Groceries",
+    "amount": 45.50,
+    "category": "Food",
+    "date": "2026-07-15"
+  }
+]
+```
+
+### Why this feature?
+
+Searching is a common requirement in real-world expense management applications, where users often need to quickly locate a specific transaction based on its title or category. This enhancement improves the usability of the API while keeping the implementation lightweight and consistent with the overall project architecture.
 
 ## Tech Stack
 
