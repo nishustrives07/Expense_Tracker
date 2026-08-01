@@ -17,13 +17,14 @@ export default function MonthlySummary({ months }) {
     );
   }
 
+  
   return (
     <ul className="month-stack">
       {months.map((m) => (
         <li className="month-card" key={m.month}>
           <div className="month-card__head">
             <span className="month-card__label">{formatMonthLabel(m.month)}</span>
-            <span className="mono month-card__total">${formatMoney(m.total)}</span>
+            <span className="mono month-card__total">₹{formatMoney(m.total)}</span>
           </div>
           <dl className="month-card__breakdown">
             {Object.entries(m.byCategory)
